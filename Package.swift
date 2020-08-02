@@ -11,7 +11,7 @@ let package = Package(
 			targets: ["PerfectThread"]),
 		],
 	dependencies: [
-		.package(url: "https://github.com/123FLO321/Perfect-LinuxBridge.git", .branch("swift5")),
+		.package(name: "LinuxBridge", url: "https://github.com/123FLO321/Perfect-LinuxBridge.git", .branch("swift5")),
 	],
 	targets: [
 		.target(
